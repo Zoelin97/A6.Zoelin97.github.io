@@ -9,35 +9,26 @@
         <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
 </head>
 
-<body data-0="background-position:0px 0px;" data-100000="background-position:0px -50000px;">
+    <body data-0="background-position:0px 0px;" data-100000="background-position:0px -50000px;">
 
-    <!-- parallel scroll -->
-    <div id="skrollr-body"></div>
-    <script type="text/javascript" src="Assets/skrollr.min.js"></script>
-    <script type="text/javascript">
-        skrollr.init({
-            forceHeight: false
-        });
-    </script>
-
-    <!-- top nav -->
-    <div class="header">
+        <!-- top nav -->
+        <div class="header">
 		  <a href="home.html" class="logo">OnePunchBar</a>
 		  <div class="header-right">
-		    <a class="active" href="#home">View All</a>
-		    <a href="#about">About Us</a>
+		      <a class="active" href="#home">View All</a>
+		      <a href="#about">About Us</a>
 		  </div>
-    </div>
+        </div>
 
-    <!-- shrink name title -->
-    <div id="name-bg">
-        <h2 id="cocktail-name">Paloma Recipie</h2>
-    </div>
+        <!-- shrink name title -->
+        <div id="name-bg">
+            <h2 id="cocktail-name">Paloma Recipie</h2>
+        </div>
 
-    <div class="spacer"></div>
+        <!-- spacer -->
+        <div class="spacer"></div>
 
-
-        <!-- description 1 -->
+        <!-- description -->
         <div class="info" id="step1" >
             <div style="height: 100px"></div>
             <h3 id="title1">Step 1</h3>
@@ -89,13 +80,21 @@
         </div>
 
        <!-- scroll indicator-->
-
         <div class="indicator">
             <div class="progress-container">
                 <div class="progress-bar" id="myBar"></div>
             </div>  
         </div>
 
-</body>
+        <!-- parallel scroll reference -->
+        <div id="skrollr-body"></div>
+        <script type="text/javascript" src="Assets/skrollr.min.js"></script>
+        <script type="text/javascript">
+            skrollr.init({
+                forceHeight: false
+            });
+        </script>
+
+    </body>
 
 </html>

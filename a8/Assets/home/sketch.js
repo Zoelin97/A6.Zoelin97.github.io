@@ -1,10 +1,10 @@
 var canvas;
 let Shaker;
-
-let x = 100,
-  y = 100,
-  angle1 = 0.0,
-  Length = 60;
+let 
+x = 100,
+y = 100,
+angle1 = 0.0,
+Length = 60;
 
 // load shaker pic
 function preload(){
